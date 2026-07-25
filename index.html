@@ -5,6 +5,38 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>陳秋池畜牧場｜貂蟬草本養生雞蛋 & 原味滴雞精 — AI 智能食譜推薦</title>
 <meta name="description" content="陳秋池畜牧場 彰化二林產地直送。貂蟬草本養生雞蛋，SGS 1050項檢驗合格、全台第一通過無沙門桿菌檢驗。AI 智能食譜推薦，養好雞、生好蛋。">
+<!-- Open Graph：LINE / Facebook 分享預覽卡片 -->
+<meta property="og:title" content="貂蟬草本養生雞蛋｜SGS 1050項檢驗合格">
+<meta property="og:description" content="彰化二林產地直送・全台第一通過無沙門桿菌檢驗・北區經銷 幸福大使 Amy">
+<meta property="og:image" content="https://marketingpro16888.github.io/egg-website/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://marketingpro16888.github.io/egg-website/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="陳秋池畜牧場｜貂蟬草本養生雞蛋">
+<meta name="twitter:card" content="summary_large_image">
+<!-- Product 結構化資料：讓 Google 搜尋結果顯示價格資訊 -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "name": "貂蟬草本養生白蛋",
+      "description": "草本營養配方飼料餵養，SGS 1050項檢驗合格，彰化二林產地直送。30顆裝／3台斤。",
+      "brand": {"@type": "Brand", "name": "陳秋池畜牧場"},
+      "offers": {"@type": "Offer", "price": "410", "priceCurrency": "TWD", "availability": "https://schema.org/InStock", "url": "https://marketingpro16888.github.io/egg-website/#products"}
+    },
+    {
+      "@type": "Product",
+      "name": "貂蟬草本養生紅蛋",
+      "description": "草本營養配方飼料餵養，高葉黃素含量，蛋黃天然金黃。30顆裝／3台斤。",
+      "brand": {"@type": "Brand", "name": "陳秋池畜牧場"},
+      "offers": {"@type": "Offer", "price": "500", "priceCurrency": "TWD", "availability": "https://schema.org/InStock", "url": "https://marketingpro16888.github.io/egg-website/#products"}
+    }
+  ]
+}
+</script>
 <style>
 :root{
   --primary:#ff990a; --primary-dark:#e07f00; --brown:#5c3a1e; --cream:#fff8ee;
@@ -60,13 +92,16 @@ nav{position:sticky;top:0;z-index:99;background:rgba(255,248,238,.95);backdrop-f
 .ben{background:#fff;border-radius:14px;padding:24px;box-shadow:var(--shadow)}
 .ben h4{color:var(--primary-dark);margin-bottom:8px}
 .ben p{font-size:.92rem}
-/* VIDEO */
-.video-wrap{position:relative;padding-top:56.25%;border-radius:16px;overflow:hidden;box-shadow:var(--shadow)}
-.video-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 /* PRODUCTS */
 .prod-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:26px}
 .prod{background:#fff;border-radius:18px;overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column}
 .prod .head{padding:34px 20px;text-align:center;font-size:3rem}
+.prod .head.photo{padding:0}
+.prod .head.photo img{width:100%;height:240px;object-fit:cover;display:block}
+.herb-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;margin-bottom:30px}
+.herb{background:#f4f8ec;border:1px solid #dbe8c8;border-radius:50%;aspect-ratio:1;display:flex;align-items:center;justify-content:center;text-align:center;font-weight:700;color:var(--green);padding:18px;font-size:1.02rem}
+.feed{background:#fff;border-radius:14px;padding:22px 26px;box-shadow:var(--shadow);font-size:.9rem}
+.feed summary{cursor:pointer;font-weight:700;color:var(--primary-dark)}
 .prod.white .head{background:linear-gradient(135deg,#fffdf7,#fdf3dd)}
 .prod.red .head{background:linear-gradient(135deg,#fdece0,#f9d9c0)}
 .prod.first .head{background:linear-gradient(135deg,#fff0f4,#ffdce6)}
@@ -140,6 +175,7 @@ footer a{color:#ffd08a}
       <a href="#story">品牌故事</a>
       <a href="#certs">安心認證</a>
       <a href="#benefits">雞蛋好處</a>
+      <a href="#herbs">草本配方</a>
       <a href="#products">產品</a>
       <a href="#ai">AI食譜推薦</a>
       <a href="#recipes">食譜</a>
@@ -185,12 +221,6 @@ footer a{color:#ffd08a}
         <p>成立<b>生物科技研發部門</b>，自組團隊經過無數日夜研發、失敗、改進、修正，開發出<b>數百種草本營養配方</b>，以高貴草本營養配方飼料餵養，讓雞隻體質強健、不易生病。堅持雞隻<b>絕不施打生長激素、抗生素與使用禁藥</b>。</p>
       </div>
     </div>
-    <div style="margin-top:40px">
-      <h3 style="text-align:center;color:var(--brown);margin-bottom:18px">📺 陳秋池畜牧場介紹｜民視報導</h3>
-      <div class="video-wrap">
-        <iframe src="https://www.youtube.com/embed/ncsgE_URW8g" title="陳秋池畜牧場 民視報導" allowfullscreen loading="lazy"></iframe>
-      </div>
-    </div>
   </div>
 </section>
 
@@ -214,14 +244,44 @@ footer a{color:#ffd08a}
     <h2 class="sec">優質草本雞蛋的好處</h2>
     <p class="sub">雞蛋是世界上最平凡也最完美的食品來源之一——便宜且營養價值豐富的蛋白質來源</p>
     <div class="ben-grid">
-      <div class="ben"><h4>👁️ 葉黃素 6 倍護眼</h4><p>蛋黃無添加人工色素、呈天然金黃色，葉黃素含量為市售雞蛋 6 倍，可能幫助預防老化相關的黃斑部退化、乾眼症，維護視網膜健康。</p></div>
-      <div class="ben"><h4>💪 優質蛋白質</h4><p>有助維持肌肉強度、減少老人肌肉流失，防止營養不良。蛋黃綿密香氣十足、完全無腥味，掌控您的味蕾。</p></div>
-      <div class="ben"><h4>☀️ 天然維生素 D</h4><p>雞蛋是維生素 D 的罕見天然來源之一，幫助骨骼健康、提高鈣吸收，對心臟、結腸和新陳代謝正常功能非常重要。</p></div>
-      <div class="ben"><h4>✨ 膠原蛋白與順暢</h4><p>整顆草本養生雞蛋富含高級膠原蛋白；好的蛋白質分解後殘渣可與纖維結合，讓排便順暢。</p></div>
-      <div class="ben"><h4>🧠 膽鹼護腦</h4><p>雞蛋是膽鹼非常好的來源，膽鹼是細胞膜重要成分，可以預防脂肪肝、認知受損與神經障礙。</p></div>
-      <div class="ben"><h4>👨‍👩‍👧‍👦 全家人的補養</h4><p>產前產後最佳補養、病中滋補聖品；男人增強體力、女人養顏美容、孩童青少年成長營養、老年人更需要雞蛋中好的膽固醇（HDL）。</p></div>
+      <div class="ben"><h4>👁️ 金盞花葉黃素</h4><p>飼料添加金盞花葉黃素，蛋黃無添加人工色素、呈天然金黃色。葉黃素是視網膜黃斑部的組成成分之一。</p></div>
+      <div class="ben"><h4>💪 優質蛋白質</h4><p>蛋白質為肌肉生長之必要營養素，有助於組織的修復。蛋黃綿密香氣十足、完全無腥味，掌控您的味蕾。</p></div>
+      <div class="ben"><h4>☀️ 天然維生素 D</h4><p>雞蛋是維生素 D 的罕見天然來源之一。維生素 D 有助於增進鈣吸收，幫助骨骼與牙齒的生長發育。</p></div>
+      <div class="ben"><h4>✨ 天然膠原蛋白</h4><p>整顆草本養生雞蛋富含膠原蛋白與優質蛋白質，是日常飲食中便利的營養來源。</p></div>
+      <div class="ben"><h4>🧠 豐富膽鹼</h4><p>雞蛋是膽鹼非常好的來源，膽鹼為細胞膜組成成分之一。</p></div>
+      <div class="ben"><h4>👨‍👩‍👧‍👦 全家人的營養補給</h4><p>優質蛋白質是孕哺期、成長期孩童青少年、成人與銀髮族日常飲食的重要營養來源，全家人都適合。</p></div>
     </div>
     <p style="text-align:center;margin-top:30px;font-weight:700;color:var(--brown)">💖👍💖 這絕對是一款值得您為守護自己與家人健康的好蛋 🥚🥚🥚</p>
+    <p style="text-align:center;margin-top:14px;font-size:.8rem;color:var(--muted)">※ 各項成分為飼料配方之添加成分。完整檢驗報告請洽 <a href="https://lin.ee/9X0OfSm" target="_blank" rel="noopener">Line 客服</a> 索取。</p>
+  </div>
+</section>
+
+<section id="herbs" style="background:#fdfbf3;border-top:1px solid #f0e2ce">
+  <div class="container">
+    <h2 class="sec">🌿 貂蟬草本機能蛋・六大珍貴草本配方</h2>
+    <p class="sub">幫你養好雞，讓你吃好蛋｜全場使用食品 HACCP 認證・ISO 22000 認證素食飼料</p>
+    <div class="herb-grid">
+      <div class="herb">金盞花<br>葉黃素</div>
+      <div class="herb">亞麻籽<br>DHA</div>
+      <div class="herb">冬蟲夏草<br>菌絲體</div>
+      <div class="herb">黑松露<br>酵素</div>
+      <div class="herb">靈芝<br>酵素</div>
+      <div class="herb">褐藻加<br>珊瑚鈣酵素</div>
+    </div>
+    <details class="feed">
+      <summary>📋 完整飼料配方：珍貴草本酵素＋抗氧化配方（點開查看）</summary>
+      <p style="margin-top:10px">有機酵母硒Se巴西豆、褐藻、黑松露、金盞花葉黃素、亞麻籽DHA、人蔘、穿心蓮、蒲公英、黃連、血桐、納豆激酶、紅麴、美樟芝、冬蟲夏草菌絲體、舞茸、ABM蘑菇、靈芝、薑母、諾麗果、兒茶素、乳清蛋白、麥芽草、紅蘿蔔、綠豆癀、紅豆癀、黑豆癀、天麻、鳳梨酵素、木瓜酵素、珊瑚鈣、正矽酸、啤酒花類黃酮、葡萄類黃酮、綠茶類黃酮。</p>
+    </details>
+    <div class="cert-grid" style="margin-top:30px">
+      <div class="cert"><div class="ic">🏅</div><h4>HACCP／ISO 22000:2018</h4><p>全場使用食品 HACCP 認證，通過 ISO 22000:2018 認證（登錄號碼 19HAA31458，環球國際驗證）</p></div>
+      <div class="cert"><div class="ic">🛡️</div><h4>產品責任險 3,000 萬</h4><p>本公司已投保產品責任險 3,000 萬元，消費更有保障</p></div>
+      <div class="cert"><div class="ic">📜</div><h4>合法登記畜牧場</h4><p>農畜牧登字第 121823 號｜台灣優良農特產品評鑑 台修證書第 0701001 號</p></div>
+      <div class="cert"><div class="ic">🔬</div><h4>定期送驗</h4><p>定期送 SGS 抗生素檢驗、重金屬檢驗、沙門氏桿菌檢驗等</p></div>
+    </div>
+    <div style="margin-top:30px;text-align:center">
+      <img src="dm-flyer.jpg" alt="貂蟬草本機能蛋 DM：水簾密閉式雞舍、六大草本配方、HACCP與ISO 22000認證" loading="lazy" style="border-radius:14px;box-shadow:var(--shadow);max-width:860px;width:100%">
+      <p style="font-size:.85rem;color:var(--muted);margin-top:8px">官方 DM｜水簾密閉式雞舍・健康零用藥（不打針）・無抗生素・無生長激素・無人工色素</p>
+    </div>
   </div>
 </section>
 
@@ -231,7 +291,7 @@ footer a{color:#ffd08a}
     <p class="sub">全台唯一結合多功能的雞蛋｜❤️送禮自用兩相宜❤️｜歡迎加入長期訂購配送</p>
     <div class="prod-grid">
       <div class="prod white">
-        <div class="head">🥚</div>
+        <div class="head photo"><img src="product-white.jpg" alt="貂蟬草本養生白蛋 30顆禮盒裝實品照" loading="lazy"></div>
         <div class="body">
           <h3>貂蟬草本養生白蛋</h3>
           <div class="price">$410 <small>／30顆裝／3台斤</small></div>
@@ -245,13 +305,13 @@ footer a{color:#ffd08a}
         </div>
       </div>
       <div class="prod red">
-        <div class="head">🥚</div>
+        <div class="head photo"><img src="product-red.jpg" alt="貂蟬草本養生紅蛋 30顆禮盒裝實品照" loading="lazy"></div>
         <div class="body">
           <h3>貂蟬草本養生紅蛋</h3>
           <div class="price">$500 <small>／30顆裝／3台斤</small></div>
           <ul>
             <li>草本營養配方飼料餵養</li>
-            <li>葉黃素 6 倍、營養更升級</li>
+            <li>飼料添加金盞花葉黃素、蛋黃天然金黃<sup>※</sup></li>
             <li>送禮自用兩相宜</li>
             <li>產地直送、新鮮有保障</li>
           </ul>
@@ -273,6 +333,16 @@ footer a{color:#ffd08a}
           <a class="btn btn-line" href="https://lin.ee/9X0OfSm" target="_blank" rel="noopener">Line 預約初生卵</a>
         </div>
       </div>
+    </div>
+    <div class="notice" style="margin-top:36px">
+      <h3 style="color:var(--brown);margin-bottom:12px">📦 訂購須知</h3>
+      <ul>
+        <li><b>運費：</b>低溫宅配 $180／趟【請確認】；滿 3 箱免運【請確認】</li>
+        <li><b>到貨時間：</b>下單後 3–5 個工作天產地直送到府【請確認】</li>
+        <li><b>付款方式：</b>轉帳匯款／貨到付款【請確認】</li>
+        <li><b>保存方式：</b>常溫可放 10 天，冷藏 2 個月</li>
+        <li><b>企業贈禮／大宗訂購：</b>另有優惠，Line 客服專案專人服務</li>
+      </ul>
     </div>
   </div>
 </section>
@@ -375,7 +445,7 @@ const RECIPES = [
  {n:"法式歐姆蛋",e:"🧈",cat:"西式",time:"10分鐘",diff:"中等",ing:["奶油","起司","牛奶"],scene:["早餐"],who:["全家","兒童"],
   desc:"外層光滑、內裡半熟綿滑的法式經典早餐。",
   steps:["3顆蛋加1大匙牛奶打勻","不沾鍋融化奶油至起泡","倒入蛋液快速攪拌至半熟","收邊對折，利用餘溫塑形，可包入起司"],
-  tip:"6倍葉黃素的金黃蛋黃，歐姆蛋顏色如陽光般誘人。"},
+  tip:"天然金黃的蛋黃不靠人工色素，歐姆蛋顏色如陽光般誘人。"},
  {n:"班尼迪克蛋",e:"🥯",cat:"西式",time:"30分鐘",diff:"進階",ing:["麵包","火腿","奶油"],scene:["早午餐","宴客"],who:["全家"],
   desc:"水波蛋+荷蘭醬的頂級早午餐儀式感。",
   steps:["醋水微滾，旋出漩渦滑入雞蛋煮3分鐘成水波蛋","蛋黃+融化奶油+檸檬汁隔水打成荷蘭醬","英式瑪芬烤脆，疊上火腿與水波蛋","淋上荷蘭醬，撒少許紅椒粉"],
@@ -389,9 +459,9 @@ const RECIPES = [
   steps:["分開蛋白蛋黃，蛋白加少許鹽打發至硬性發泡","蛋白霜堆在吐司上，中間留一個凹槽","180°C烤5分鐘後，放入蛋黃再烤3分鐘","撒起司與黑胡椒即完成"],
   tip:"新鮮蛋白打發快、雲朵更挺，親子共廚超有成就感。"},
  {n:"麻油薑蛋",e:"🫚",cat:"台式",time:"12分鐘",diff:"簡單",ing:["麻油","薑"],scene:["補養","宵夜"],who:["孕產","銀髮"],
-  desc:"暖身補氣的月子料理，產前產後最佳補養。",
+  desc:"台灣經典月子料理，麻油香氣溫暖濃郁。",
   steps:["黑麻油小火煸香老薑片至捲曲","打入2顆蛋煎至邊緣焦香","嗆入少許米酒（孕婦可煮至酒精揮發）","可加麵線變成麻油蛋麵線"],
-  tip:"養生蛋是產前產後最佳補養、病中滋補聖品，配麻油薑更溫補。"}
+  tip:"雞蛋含優質蛋白質，是月子期間傳統飲食中常見的營養食材。"}
 ];
 
 /* ================= AI 推薦引擎 ================= */
