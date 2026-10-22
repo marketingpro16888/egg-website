@@ -3,39 +3,629 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>陳秋池畜牧場｜貂蟬草本養生雞蛋 & 原味滴雞精 — AI 智能食譜推薦</title>
-<meta name="description" content="陳秋池畜牧場 彰化二林產地直送。貂蟬草本養生雞蛋，SGS 1050項檢驗合格、全台第一通過無沙門桿菌檢驗。AI 智能食譜推薦，養好雞、生好蛋。">
+<title>貂蟬草本養生雞蛋・滴雞精｜全台宅配・彰化二林產地直送｜幸福大使</title>
+<meta name="description" content="陳秋池畜牧場北區經銷・幸福大使 Amy。貂蟬草本養生雞蛋（白蛋、紅蛋、初生卵）與原味滴雞精，彰化二林產地直送，SGS 檢驗動物用藥與農藥殘留未檢出、沙門氏桿菌陰性。新竹以北配送到府、全台宅配，LINE 訂購。">
 <!-- Open Graph：LINE / Facebook 分享預覽卡片 -->
-<meta property="og:title" content="貂蟬草本養生雞蛋｜SGS 1050項檢驗合格">
-<meta property="og:description" content="彰化二林產地直送・全台第一通過無沙門桿菌檢驗・北區經銷 幸福大使 Amy">
+<meta property="og:title" content="貂蟬草本養生雞蛋・滴雞精｜幸福大使 全台宅配">
+<meta property="og:description" content="彰化二林產地直送・SGS 檢驗藥物與農藥殘留未檢出・新竹以北配送到府、全台宅配｜北區經銷 幸福大使 Amy">
 <meta property="og:image" content="https://happyeggqueen.com/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:url" content="https://happyeggqueen.com/">
 <link rel="canonical" href="https://happyeggqueen.com/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="陳秋池畜牧場｜貂蟬草本養生雞蛋">
 <meta name="twitter:card" content="summary_large_image">
 <!-- Product 結構化資料：讓 Google 搜尋結果顯示價格資訊 -->
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@graph": [
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://happyeggqueen.com/#website",
+   "url": "https://happyeggqueen.com/",
+   "name": "幸福大使｜貂蟬草本養生雞蛋",
+   "inLanguage": "zh-Hant",
+   "publisher": {
+    "@id": "https://happyeggqueen.com/#seller"
+   }
+  },
+  {
+   "@type": "Organization",
+   "@id": "https://happyeggqueen.com/#seller",
+   "name": "幸福大使｜貂蟬草本養生雞蛋 北區經銷",
+   "alternateName": "幸福大使 Amy",
+   "url": "https://happyeggqueen.com/",
+   "logo": "https://happyeggqueen.com/og-image.jpg",
+   "telephone": "+886-939-945-404",
+   "description": "陳秋池畜牧場北區經銷，提供貂蟬草本養生雞蛋與原味滴雞精，新竹以北配送到府、全台宅配。",
+   "areaServed": {
+    "@type": "Country",
+    "name": "台灣"
+   },
+   "sameAs": [
+    "https://lin.ee/9X0OfSm"
+   ],
+   "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+886-939-945-404",
+    "contactType": "customer service",
+    "areaServed": "TW",
+    "availableLanguage": "zh-Hant"
+   }
+  },
+  {
+   "@type": "Product",
+   "name": "貂蟬草本養生白蛋",
+   "description": "草本營養配方飼料餵養，SGS 檢驗動物用藥與農藥殘留未檢出，彰化二林產地直送。30顆裝／3台斤。",
+   "image": "https://happyeggqueen.com/product-white.jpg",
+   "brand": {
+    "@type": "Brand",
+    "name": "陳秋池畜牧場"
+   },
+   "offers": {
+    "@type": "Offer",
+    "price": "410",
+    "priceCurrency": "TWD",
+    "availability": "https://schema.org/InStock",
+    "url": "https://happyeggqueen.com/#products",
+    "seller": {
+     "@id": "https://happyeggqueen.com/#seller"
+    }
+   }
+  },
+  {
+   "@type": "Product",
+   "name": "貂蟬草本養生紅蛋",
+   "description": "草本營養配方飼料餵養，飼料添加金盞花葉黃素，蛋黃天然金黃。30顆裝／3台斤。",
+   "image": "https://happyeggqueen.com/product-red.jpg",
+   "brand": {
+    "@type": "Brand",
+    "name": "陳秋池畜牧場"
+   },
+   "offers": {
+    "@type": "Offer",
+    "price": "500",
+    "priceCurrency": "TWD",
+    "availability": "https://schema.org/InStock",
+    "url": "https://happyeggqueen.com/#products",
+    "seller": {
+     "@id": "https://happyeggqueen.com/#seller"
+    }
+   }
+  },
+  {
+   "@type": "Product",
+   "name": "貂蟬皮蛋",
+   "description": "以篩選過的貂蟬白蛋製成，製程不添加防腐劑、氧化鉛、銅化合物，低溫殺菌乾燥、真空包裝。整箱 20 顆。",
+   "image": "https://happyeggqueen.com/product-pidan.jpg",
+   "brand": {
+    "@type": "Brand",
+    "name": "陳秋池畜牧場"
+   },
+   "offers": {
+    "@type": "Offer",
+    "price": "500",
+    "priceCurrency": "TWD",
+    "availability": "https://schema.org/InStock",
+    "url": "https://happyeggqueen.com/#products",
+    "seller": {
+     "@id": "https://happyeggqueen.com/#seller"
+    }
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
     {
-      "@type": "Product",
-      "name": "貂蟬草本養生白蛋",
-      "description": "草本營養配方飼料餵養，SGS 1050項檢驗合格，彰化二林產地直送。30顆裝／3台斤。",
-      "brand": {"@type": "Brand", "name": "陳秋池畜牧場"},
-      "offers": {"@type": "Offer", "price": "410", "priceCurrency": "TWD", "availability": "https://schema.org/InStock", "url": "https://happyeggqueen.com/#products"}
+     "@type": "Question",
+     "name": "如何訂購貂蟬草本養生雞蛋？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "加入 LINE 官方帳號（ID：@kos5506h）或來電 0939-945-404，告知品項、數量與收件地址即可。"
+     }
     },
     {
-      "@type": "Product",
-      "name": "貂蟬草本養生紅蛋",
-      "description": "草本營養配方飼料餵養，高葉黃素含量，蛋黃天然金黃。30顆裝／3台斤。",
-      "brand": {"@type": "Brand", "name": "陳秋池畜牧場"},
-      "offers": {"@type": "Offer", "price": "500", "priceCurrency": "TWD", "availability": "https://schema.org/InStock", "url": "https://happyeggqueen.com/#products"}
+     "@type": "Question",
+     "name": "配送範圍有哪些？運費怎麼算？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "全台皆可配送。新竹以北由幸福大使配送到府；新竹以南及宜花東由黑貓宅急便配送。雙北 2 箱以上免運，單買 1 箱加收運費 $60；雙北以外滿 3 箱免運，未滿 3 箱運費 $180。"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "什麼時候截止收單？什麼時候配送？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "每週五中午截止收單，每週一、週二配送，下單後約 3–5 個工作天到貨。"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "有哪些付款方式？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "轉帳匯款或貨到付款。"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "雞蛋可以保存多久？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "常溫可放 10 天，冷藏可放 2 個月。"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "什麼是初生卵？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "初生卵是雞隻約 120 天大、體重達 1.2 公斤時產下的第一批蛋，大約每 2 個月才有一批，數量稀少，需要提早預約。"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "為什麼同一箱雞蛋大小不一樣？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "雞蛋以重量計價，每箱 3 台斤、30 顆，所以可能一層稍大、一層稍小，這是正常現象，出貨前都會篩選量秤。"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "皮蛋要怎麼保存？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "買回家後放在常溫陰涼處即可，保存期限約 4 個月，不需要冷藏。要做涼拌菜時，可以先冰鎮半小時再吃。"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "皮蛋殼上的墨綠色斑點是什麼？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "那是蛋殼在烘乾受熱過程中產生的自然變化，不影響品質，可以放心食用。"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "雞蛋有檢驗報告可以看嗎？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "有。最新的 SGS 檢驗報告（編號 AFA25B03713，2025/11/20）可以直接在本網站查看：134 項動物用藥與 129 項農藥殘留均未檢出，沙門氏桿菌陰性。"
+     }
     }
-  ]
+   ]
+  },
+  {
+   "@type": "Recipe",
+   "name": "古早味菜脯蛋",
+   "description": "外酥內嫩、鹹香下飯的台菜經典。",
+   "recipeCuisine": "台式",
+   "recipeCategory": "晚餐、便當",
+   "recipeIngredient": [
+    "貂蟬草本養生雞蛋",
+    "蘿蔔乾",
+    "蔥"
+   ],
+   "recipeInstructions": [
+    {
+     "@type": "HowToStep",
+     "text": "菜脯泡水10分鐘去鹹，擠乾切碎"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "乾鍋小火炒香菜脯，盛起放涼"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "4顆養生雞蛋打散，加入菜脯與蔥花"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "熱鍋多油，倒入蛋液以中大火煎至定型"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "翻面煎至兩面金黃即可"
+    }
+   ],
+   "author": {
+    "@id": "https://happyeggqueen.com/#seller"
+   },
+   "url": "https://happyeggqueen.com/#rec-古早味菜脯蛋",
+   "totalTime": "PT15M"
+  },
+  {
+   "@type": "Recipe",
+   "name": "番茄炒蛋",
+   "description": "酸甜開胃的國民家常菜，茄紅素+葉黃素雙重營養。",
+   "recipeCuisine": "台式",
+   "recipeCategory": "晚餐、便當",
+   "recipeIngredient": [
+    "貂蟬草本養生雞蛋",
+    "番茄",
+    "蔥"
+   ],
+   "recipeInstructions": [
+    {
+     "@type": "HowToStep",
+     "text": "番茄切塊、3顆蛋加少許鹽打散"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "熱油先炒蛋至七分熟盛起"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "原鍋炒番茄至出汁，加少許糖與鹽"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "倒回炒蛋拌合，撒蔥花起鍋"
+    }
+   ],
+   "author": {
+    "@id": "https://happyeggqueen.com/#seller"
+   },
+   "url": "https://happyeggqueen.com/#rec-番茄炒蛋",
+   "totalTime": "PT10M"
+  },
+  {
+   "@type": "Recipe",
+   "name": "日式茶碗蒸",
+   "description": "滑嫩如布丁的蒸蛋，好消化易吸收。",
+   "recipeCuisine": "日式",
+   "recipeCategory": "晚餐、補養",
+   "recipeIngredient": [
+    "貂蟬草本養生雞蛋",
+    "高湯",
+    "香菇",
+    "蝦仁"
+   ],
+   "recipeInstructions": [
+    {
+     "@type": "HowToStep",
+     "text": "2顆蛋輕輕打散，不要打出泡"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "加入2.5倍蛋液量的柴魚高湯與少許鹽"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "過篩兩次倒入碗中，放入香菇、蝦仁"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "蓋上耐熱膜，電鍋外鍋半杯水、鍋蓋留縫蒸12分鐘"
+    }
+   ],
+   "author": {
+    "@id": "https://happyeggqueen.com/#seller"
+   },
+   "url": "https://happyeggqueen.com/#rec-日式茶碗蒸",
+   "totalTime": "PT25M"
+  },
+  {
+   "@type": "Recipe",
+   "name": "日式溏心蛋",
+   "description": "蛋黃呈膏狀的拉麵靈魂配角。",
+   "recipeCuisine": "日式",
+   "recipeCategory": "宵夜、便當",
+   "recipeIngredient": [
+    "貂蟬草本養生雞蛋",
+    "醬油",
+    "味醂"
+   ],
+   "recipeInstructions": [
+    {
+     "@type": "HowToStep",
+     "text": "雞蛋回至室溫，沸水下鍋煮6分30秒"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "立刻冰鎮5分鐘後剝殼"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "醬油:味醂:水＝1:1:2煮開放涼"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "蛋浸入醬汁冷藏醃4小時以上"
+    }
+   ],
+   "author": {
+    "@id": "https://happyeggqueen.com/#seller"
+   },
+   "url": "https://happyeggqueen.com/#rec-日式溏心蛋"
+  },
+  {
+   "@type": "Recipe",
+   "name": "三色蛋",
+   "description": "宴客必備的漂亮冷盤，三種蛋的完美結合。",
+   "recipeCuisine": "中式",
+   "recipeCategory": "宴客、便當",
+   "recipeIngredient": [
+    "貂蟬草本養生雞蛋",
+    "皮蛋",
+    "鹹蛋"
+   ],
+   "recipeInstructions": [
+    {
+     "@type": "HowToStep",
+     "text": "皮蛋、鹹蛋各2顆蒸熟切丁"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "4顆蛋分出蛋黃、蛋白；蛋白加皮蛋鹹蛋丁拌勻"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "倒入鋪保鮮膜的容器蒸15分鐘至半凝固"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "淋上蛋黃液再蒸10分鐘，放涼切片"
+    }
+   ],
+   "author": {
+    "@id": "https://happyeggqueen.com/#seller"
+   },
+   "url": "https://happyeggqueen.com/#rec-三色蛋",
+   "totalTime": "PT40M"
+  },
+  {
+   "@type": "Recipe",
+   "name": "九層塔烘蛋",
+   "description": "塔香撲鼻、蓬鬆厚實的熱炒店人氣料理。",
+   "recipeCuisine": "台式",
+   "recipeCategory": "晚餐",
+   "recipeIngredient": [
+    "貂蟬草本養生雞蛋",
+    "九層塔"
+   ],
+   "recipeInstructions": [
+    {
+     "@type": "HowToStep",
+     "text": "4顆蛋打散加鹽與少許米酒"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "九層塔洗淨甩乾拌入蛋液"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "熱鍋熱油（油要夠），倒入蛋液"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "小火半煎炸至底部金黃，翻面再煎2分鐘"
+    }
+   ],
+   "author": {
+    "@id": "https://happyeggqueen.com/#seller"
+   },
+   "url": "https://happyeggqueen.com/#rec-九層塔烘蛋",
+   "totalTime": "PT15M"
+  },
+  {
+   "@type": "Recipe",
+   "name": "古早味茶葉蛋",
+   "description": "越燜越入味的國民點心。",
+   "recipeCuisine": "台式",
+   "recipeCategory": "點心、補養",
+   "recipeIngredient": [
+    "貂蟬草本養生雞蛋",
+    "茶葉",
+    "滷包"
+   ],
+   "recipeInstructions": [
+    {
+     "@type": "HowToStep",
+     "text": "雞蛋煮熟後輕敲出裂痕"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "鍋中加紅茶葉、滷包、醬油、鹽與水"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "小火滷40分鐘，關火燜過夜"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "隔天再加熱一次風味更佳"
+    }
+   ],
+   "author": {
+    "@id": "https://happyeggqueen.com/#seller"
+   },
+   "url": "https://happyeggqueen.com/#rec-古早味茶葉蛋"
+  },
+  {
+   "@type": "Recipe",
+   "name": "法式歐姆蛋",
+   "description": "外層光滑、內裡半熟綿滑的法式經典早餐。",
+   "recipeCuisine": "西式",
+   "recipeCategory": "早餐",
+   "recipeIngredient": [
+    "貂蟬草本養生雞蛋",
+    "奶油",
+    "起司",
+    "牛奶"
+   ],
+   "recipeInstructions": [
+    {
+     "@type": "HowToStep",
+     "text": "3顆蛋加1大匙牛奶打勻"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "不沾鍋融化奶油至起泡"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "倒入蛋液快速攪拌至半熟"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "收邊對折，利用餘溫塑形，可包入起司"
+    }
+   ],
+   "author": {
+    "@id": "https://happyeggqueen.com/#seller"
+   },
+   "url": "https://happyeggqueen.com/#rec-法式歐姆蛋",
+   "totalTime": "PT10M"
+  },
+  {
+   "@type": "Recipe",
+   "name": "班尼迪克蛋",
+   "description": "水波蛋+荷蘭醬的頂級早午餐儀式感。",
+   "recipeCuisine": "西式",
+   "recipeCategory": "早午餐、宴客",
+   "recipeIngredient": [
+    "貂蟬草本養生雞蛋",
+    "麵包",
+    "火腿",
+    "奶油"
+   ],
+   "recipeInstructions": [
+    {
+     "@type": "HowToStep",
+     "text": "醋水微滾，旋出漩渦滑入雞蛋煮3分鐘成水波蛋"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "蛋黃+融化奶油+檸檬汁隔水打成荷蘭醬"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "英式瑪芬烤脆，疊上火腿與水波蛋"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "淋上荷蘭醬，撒少許紅椒粉"
+    }
+   ],
+   "author": {
+    "@id": "https://happyeggqueen.com/#seller"
+   },
+   "url": "https://happyeggqueen.com/#rec-班尼迪克蛋",
+   "totalTime": "PT30M"
+  },
+  {
+   "@type": "Recipe",
+   "name": "西班牙馬鈴薯烘蛋",
+   "description": "厚實飽足的西班牙國民料理，冷熱皆宜。",
+   "recipeCuisine": "西式",
+   "recipeCategory": "早午餐、宴客、便當",
+   "recipeIngredient": [
+    "貂蟬草本養生雞蛋",
+    "馬鈴薯",
+    "洋蔥"
+   ],
+   "recipeInstructions": [
+    {
+     "@type": "HowToStep",
+     "text": "馬鈴薯、洋蔥切薄片，小火油煮至軟"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "瀝油後拌入5顆打散的蛋液，靜置10分鐘"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "小火煎至底部定型，藉盤子翻面"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "再煎5分鐘至熟，切塊享用"
+    }
+   ],
+   "author": {
+    "@id": "https://happyeggqueen.com/#seller"
+   },
+   "url": "https://happyeggqueen.com/#rec-西班牙馬鈴薯烘蛋",
+   "totalTime": "PT35M"
+  },
+  {
+   "@type": "Recipe",
+   "name": "雲朵蛋吐司",
+   "description": "蛋白打發如雲朵、蛋黃像太陽，小朋友最愛的萌系早餐。",
+   "recipeCuisine": "西式",
+   "recipeCategory": "早餐",
+   "recipeIngredient": [
+    "貂蟬草本養生雞蛋",
+    "麵包",
+    "起司"
+   ],
+   "recipeInstructions": [
+    {
+     "@type": "HowToStep",
+     "text": "分開蛋白蛋黃，蛋白加少許鹽打發至硬性發泡"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "蛋白霜堆在吐司上，中間留一個凹槽"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "180°C烤5分鐘後，放入蛋黃再烤3分鐘"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "撒起司與黑胡椒即完成"
+    }
+   ],
+   "author": {
+    "@id": "https://happyeggqueen.com/#seller"
+   },
+   "url": "https://happyeggqueen.com/#rec-雲朵蛋吐司",
+   "totalTime": "PT15M"
+  },
+  {
+   "@type": "Recipe",
+   "name": "麻油薑蛋",
+   "description": "台灣經典月子料理，麻油香氣溫暖濃郁。",
+   "recipeCuisine": "台式",
+   "recipeCategory": "補養、宵夜",
+   "recipeIngredient": [
+    "貂蟬草本養生雞蛋",
+    "麻油",
+    "薑"
+   ],
+   "recipeInstructions": [
+    {
+     "@type": "HowToStep",
+     "text": "黑麻油小火煸香老薑片至捲曲"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "打入2顆蛋煎至邊緣焦香"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "嗆入少許米酒（孕婦可煮至酒精揮發）"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "可加麵線變成麻油蛋麵線"
+    }
+   ],
+   "author": {
+    "@id": "https://happyeggqueen.com/#seller"
+   },
+   "url": "https://happyeggqueen.com/#rec-麻油薑蛋",
+   "totalTime": "PT12M"
+  }
+ ]
 }
 </script>
 <style>
@@ -81,6 +671,9 @@ nav{position:sticky;top:0;z-index:99;background:rgba(255,248,238,.95);backdrop-f
 .story-card{background:var(--card);border-radius:16px;padding:30px;box-shadow:var(--shadow)}
 .story-card h3{color:var(--primary-dark);margin-bottom:12px;font-size:1.25rem}
 .quote{border-left:5px solid var(--primary);background:#fff3e0;padding:16px 20px;border-radius:0 12px 12px 0;margin:18px 0;font-weight:700;color:var(--brown)}
+.farm-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:30px}
+.farm-gallery img{width:100%;height:220px;object-fit:cover;border-radius:12px;box-shadow:var(--shadow)}
+@media(max-width:760px){.farm-gallery{grid-template-columns:1fr}}
 /* CERTS */
 .certs{background:#fff;border-top:1px solid #f0e2ce;border-bottom:1px solid #f0e2ce}
 .cert-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
@@ -98,13 +691,14 @@ nav{position:sticky;top:0;z-index:99;background:rgba(255,248,238,.95);backdrop-f
 .prod{background:#fff;border-radius:18px;overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column}
 .prod .head{padding:34px 20px;text-align:center;font-size:3rem}
 .prod .head.photo{padding:0}
-.prod .head.photo img{width:100%;height:240px;object-fit:cover;display:block}
+.prod .head.photo img{width:100%;height:240px;max-width:100%;object-fit:cover;display:block}
 .herb-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;margin-bottom:30px}
 .herb{background:#f4f8ec;border:1px solid #dbe8c8;border-radius:50%;aspect-ratio:1;display:flex;align-items:center;justify-content:center;text-align:center;font-weight:700;color:var(--green);padding:18px;font-size:1.02rem}
 .feed{background:#fff;border-radius:14px;padding:22px 26px;box-shadow:var(--shadow);font-size:.9rem}
 .feed summary{cursor:pointer;font-weight:700;color:var(--primary-dark)}
 .prod.white .head{background:linear-gradient(135deg,#fffdf7,#fdf3dd)}
 .prod.red .head{background:linear-gradient(135deg,#fdece0,#f9d9c0)}
+.prod.pidan .head{background:#eef3e8}
 .prod.first .head{background:linear-gradient(135deg,#fff0f4,#ffdce6)}
 .prod .body{padding:22px 24px 28px;flex:1;display:flex;flex-direction:column}
 .prod h3{color:var(--brown);font-size:1.3rem}
@@ -154,6 +748,9 @@ nav{position:sticky;top:0;z-index:99;background:rgba(255,248,238,.95);backdrop-f
 .notice{background:#fff;border-radius:16px;padding:30px;box-shadow:var(--shadow)}
 .notice ul{list-style:none}
 .notice li{padding:6px 0 6px 28px;position:relative}
+.faq h3{color:var(--brown);font-size:1.05rem;margin-top:18px}
+.faq h3:first-child{margin-top:0}
+.faq p{color:var(--text);font-size:.95rem}
 .notice li::before{content:"🥚";position:absolute;left:0}
 /* ORDER */
 .order{background:linear-gradient(160deg,#ffe2b0,#ffd08a);text-align:center}
@@ -181,6 +778,7 @@ footer a{color:#ffd08a}
       <a href="#ai">AI食譜推薦</a>
       <a href="#recipes">食譜</a>
       <a href="#notice">溫馨提醒</a>
+      <a href="#faq">常見問題</a>
       <a class="cta" href="https://lin.ee/9X0OfSm" target="_blank" rel="noopener">Line訂購</a>
     </div>
   </div>
@@ -190,8 +788,8 @@ footer a{color:#ffd08a}
   <div class="egg">🥚🐔🥚</div>
   <h1>貂蟬草本養生雞蛋 <b>&</b> 原味滴雞精</h1>
   <p class="slogan">一生用心 ～ 做好『大家ㄟ雞蛋』</p>
-  <p class="mini">彰化二林畜牧場直送新鮮養生蛋｜全台唯一附設生物科技研發部門<br>
-  SGS 1050 項檢驗合格・全台第一個通過「無沙門桿菌檢驗」・無藥物殘留</p>
+  <p class="mini">彰化二林畜牧場直送新鮮養生蛋｜畜牧場附設生物科技研發部門<br>
+  SGS 檢驗：134 項動物用藥、129 項農藥殘留未檢出・沙門氏桿菌陰性</p>
   <div class="btns">
     <a class="btn btn-ai" href="#ai">🤖 AI 智能食譜推薦</a>
     <a class="btn btn-line" href="https://lin.ee/9X0OfSm" target="_blank" rel="noopener">加入 Line 立即訂購</a>
@@ -214,7 +812,7 @@ footer a{color:#ffd08a}
         <h3>從傳統籠飼到五星級自動化雞舍</h3>
         <p>陳老闆痛定思痛，把家裡三十年的傳統籠飼改建成全自動化工廠，更開創自動化硬體設備畜牧業先例！不惜成本持續斥資<b>上億元</b>改善飼養環境：</p>
         <ul style="margin:12px 0 12px 22px">
-          <li>『全自動電腦環控、密閉水簾雞舍』隔絕污染病源、病菌空氣與飼料感染，阻隔禽流感威脅</li>
+          <li>『全自動電腦環控、密閉水簾雞舍』降低外部病源、空氣與飼料污染的風險</li>
           <li>聰明控溫控光、自動化定量輸送飼料與飲水</li>
           <li>自動收蛋，減少破蛋產生的污染</li>
           <li>自動化清理雞糞做為堆肥，營造最舒適的產蛋環境</li>
@@ -222,6 +820,12 @@ footer a{color:#ffd08a}
         <p>成立<b>生物科技研發部門</b>，自組團隊經過無數日夜研發、失敗、改進、修正，開發出<b>數百種草本營養配方</b>，以高貴草本營養配方飼料餵養，讓雞隻體質強健、不易生病。堅持雞隻<b>絕不施打生長激素、抗生素與使用禁藥</b>。</p>
       </div>
     </div>
+    <div class="farm-gallery">
+      <img src="farm-1.jpg" width="1200" height="900" alt="陳秋池畜牧場自動化雞舍實景" loading="lazy">
+      <img src="farm-2.jpg" width="1200" height="900" alt="陳秋池畜牧場環境實景" loading="lazy">
+      <img src="farm-3.jpg" width="900" height="1200" alt="陳秋池畜牧場實景照片" loading="lazy">
+    </div>
+    <p style="text-align:center;font-size:.85rem;color:var(--muted);margin-top:8px">陳秋池畜牧場實景｜彰化二林</p>
   </div>
 </section>
 
@@ -230,13 +834,14 @@ footer a{color:#ffd08a}
     <h2 class="sec">有履歷的 A 級養生蛋</h2>
     <p class="sub">行政院農委會雞蛋溯源編號：<b>5140057515</b>｜彰化芳苑鄉農會輔導</p>
     <div class="cert-grid">
-      <div class="cert"><div class="ic">🏆</div><h4>SGS 1050 項檢驗合格</h4><p>打破全國認證紀錄，通過國家最高規格檢驗，唯一無藥物殘留</p></div>
-      <div class="cert"><div class="ic">🦠</div><h4>全台第一「無沙門桿菌」</h4><p>全台第一個通過無沙門桿菌檢驗，非一般沙門桿菌含量高的水洗蛋</p></div>
-      <div class="cert"><div class="ic">🚫</div><h4>六大「無」安心保證</h4><p>無大腸桿菌、無黃麴毒素、無重金屬、無農藥殘留、無芬普尼、無戴奧辛殘留</p></div>
-      <div class="cert"><div class="ic">💉</div><h4>絕不施打抗生素</h4><p>不施打生長激素、抗生素、不使用禁藥，養生無毒無打針</p></div>
-      <div class="cert"><div class="ic">🚚</div><h4>產地直送</h4><p>彰化二林畜牧場直送，絕對新鮮有保障</p></div>
-      <div class="cert"><div class="ic">🧪</div><h4>生物科技研發部門</h4><p>全台唯一附設生物科技研發部門，數百種草本營養配方</p></div>
+      <div class="cert"><div class="ic">🏆</div><h4>SGS 動物用藥 134 項未檢出</h4><p>抗生素、磺胺類、硝基呋喃等 134 項動物用藥殘留檢測，結果均為未檢出</p></div>
+      <div class="cert"><div class="ic">🦠</div><h4>沙門氏桿菌：陰性</h4><p>SGS 依衛福部公告方法檢驗，沙門氏桿菌結果為陰性</p></div>
+      <div class="cert"><div class="ic">🌾</div><h4>農藥 129 項未檢出</h4><p>含芬普尼在內的 129 項禽畜農藥殘留，均未檢出；重金屬鉛未檢出</p></div>
+      <div class="cert"><div class="ic">💉</div><h4>絕不施打抗生素</h4><p>不施打生長激素、抗生素、不使用禁藥</p></div>
+      <div class="cert"><div class="ic">🚚</div><h4>產地直送</h4><p>彰化二林畜牧場直送，新鮮有保障</p></div>
+      <div class="cert"><div class="ic">🧪</div><h4>生物科技研發部門</h4><p>畜牧場附設研發部門，自行研發數百種草本營養配方</p></div>
     </div>
+    <p style="text-align:center;margin-top:22px;font-size:.9rem;color:var(--muted)">📄 檢驗依據：<a href="sgs-report-AFA25B03713.pdf" target="_blank" rel="noopener">SGS 檢驗報告 AFA25B03713</a>（2025/11/20，台灣檢驗科技 SGS 食品實驗室，檢驗結果僅對送檢樣品負責）</p>
   </div>
 </section>
 
@@ -253,7 +858,7 @@ footer a{color:#ffd08a}
       <div class="ben"><h4>👨‍👩‍👧‍👦 全家人的營養補給</h4><p>優質蛋白質是孕哺期、成長期孩童青少年、成人與銀髮族日常飲食的重要營養來源，全家人都適合。</p></div>
     </div>
     <p style="text-align:center;margin-top:30px;font-weight:700;color:var(--brown)">💖👍💖 這絕對是一款值得您為守護自己與家人健康的好蛋 🥚🥚🥚</p>
-    <p style="text-align:center;margin-top:14px;font-size:.8rem;color:var(--muted)">※ 各項成分為飼料配方之添加成分。完整檢驗報告請洽 <a href="https://lin.ee/9X0OfSm" target="_blank" rel="noopener">Line 客服</a> 索取。</p>
+    <p style="text-align:center;margin-top:14px;font-size:.8rem;color:var(--muted)">※ 各項成分為飼料配方之添加成分。完整檢驗報告請見 <a href="sgs-report-AFA25B03713.pdf" target="_blank" rel="noopener">SGS 檢驗報告 AFA25B03713</a>。</p>
   </div>
 </section>
 
@@ -280,7 +885,7 @@ footer a{color:#ffd08a}
       <div class="cert"><div class="ic">🔬</div><h4>定期送驗</h4><p>定期送 SGS 抗生素檢驗、重金屬檢驗、沙門氏桿菌檢驗等</p></div>
     </div>
     <div style="margin-top:30px;text-align:center">
-      <img src="dm-flyer.jpg" alt="貂蟬草本機能蛋 DM：水簾密閉式雞舍、六大草本配方、HACCP與ISO 22000認證" loading="lazy" style="border-radius:14px;box-shadow:var(--shadow);max-width:860px;width:100%">
+      <img src="dm-flyer.jpg" width="1567" height="1045" alt="貂蟬草本機能蛋 DM：水簾密閉式雞舍、六大草本配方、HACCP與ISO 22000認證" loading="lazy" style="border-radius:14px;box-shadow:var(--shadow);max-width:860px;width:100%">
       <p style="font-size:.85rem;color:var(--muted);margin-top:8px">官方 DM｜水簾密閉式雞舍・健康零用藥（不打針）・無抗生素・無生長激素・無人工色素</p>
     </div>
   </div>
@@ -289,16 +894,16 @@ footer a{color:#ffd08a}
 <section id="products" style="background:#fff;border-top:1px solid #f0e2ce">
   <div class="container">
     <h2 class="sec">產品與價格</h2>
-    <p class="sub">全台唯一結合多功能的雞蛋｜❤️送禮自用兩相宜❤️｜歡迎加入長期訂購配送</p>
+    <p class="sub">彰化二林產地直送｜❤️送禮自用兩相宜❤️｜歡迎加入長期訂購配送</p>
     <div class="prod-grid">
       <div class="prod white">
-        <div class="head photo"><img src="product-white.jpg" alt="貂蟬草本養生白蛋 30顆禮盒裝實品照" loading="lazy"></div>
+        <div class="head photo"><img src="product-white.jpg" width="1036" height="1522" alt="貂蟬草本養生白蛋 30顆禮盒裝實品照" loading="lazy"></div>
         <div class="body">
           <h3>貂蟬草本養生白蛋</h3>
           <div class="price">$410 <small>／30顆裝／3台斤</small></div>
           <ul>
             <li>草本營養配方飼料餵養</li>
-            <li>SGS 1050 項檢驗合格</li>
+            <li>SGS 檢驗藥物與農藥殘留未檢出</li>
             <li>蛋黃天然金黃、完全無腥味</li>
             <li>產地直送、新鮮有保障</li>
           </ul>
@@ -306,7 +911,7 @@ footer a{color:#ffd08a}
         </div>
       </div>
       <div class="prod red">
-        <div class="head photo"><img src="product-red.jpg" alt="貂蟬草本養生紅蛋 30顆禮盒裝實品照" loading="lazy"></div>
+        <div class="head photo"><img src="product-red.jpg" width="1036" height="1520" alt="貂蟬草本養生紅蛋 30顆禮盒裝實品照" loading="lazy"></div>
         <div class="body">
           <h3>貂蟬草本養生紅蛋</h3>
           <div class="price">$500 <small>／30顆裝／3台斤</small></div>
@@ -320,7 +925,7 @@ footer a{color:#ffd08a}
         </div>
       </div>
       <div class="prod first">
-        <div class="head">🐣</div>
+        <div class="head photo"><img src="product-first.jpg" width="423" height="640" alt="貂蟬初生卵實品照" loading="lazy"></div>
         <div class="body">
           <h3>初生卵（處女蛋）<span class="badge">每2個月限量</span></h3>
           <div class="price">同 3 台斤價格 <small>／一箱多送約10顆</small></div>
@@ -334,13 +939,34 @@ footer a{color:#ffd08a}
           <a class="btn btn-line" href="https://lin.ee/9X0OfSm" target="_blank" rel="noopener">Line 預約初生卵</a>
         </div>
       </div>
+      <div class="prod pidan">
+        <div class="head photo"><img src="product-pidan.jpg" width="1200" height="800" alt="貂蟬皮蛋真空包裝實品照" loading="lazy"></div>
+        <div class="body">
+          <h3>貂蟬皮蛋 <span class="badge">新上市</span></h3>
+          <p style="font-weight:900;color:var(--red);margin-top:4px">超級無敵好吃！期待已久，正式上市 😋</p>
+          <div class="price">$500 <small>／整箱 20 顆｜零售 2 顆 $60</small></div>
+          <ul>
+            <li>原料只用篩選過的貂蟬白蛋</li>
+            <li>製程不添加防腐劑、氧化鉛、銅化合物</li>
+            <li>低溫殺菌乾燥、真空包裝</li>
+            <li>常溫陰涼處保存約 4 個月，免冷藏</li>
+          </ul>
+          <details style="font-size:.88rem;margin-bottom:16px"><summary style="cursor:pointer;font-weight:700;color:var(--primary-dark)">製作方式與食用建議</summary>
+            <p style="margin-top:8px">以篩選過的貂蟬白蛋為原料，使用食品級氫氧化鈉與食鹽浸泡熟成，再經低溫殺菌乾燥，成品檢驗後真空包裝，保持最佳風味。</p>
+            <p style="margin-top:6px">蛋殼上的墨綠色斑點，是蛋殼在烘乾受熱過程中產生的自然變化，可以放心食用。</p>
+            <p style="margin-top:6px">做涼拌皮蛋豆腐時，先冰鎮半小時再上桌，口感更香醇 Q 彈。</p>
+          </details>
+          <a class="btn btn-line" href="https://lin.ee/9X0OfSm" target="_blank" rel="noopener">加入 Line 訂購皮蛋</a>
+        </div>
+      </div>
     </div>
     <div class="notice" style="margin-top:36px">
       <h3 style="color:var(--brown);margin-bottom:12px">📦 訂購須知</h3>
       <ul>
+        <li><b>配送範圍：</b>全台皆可配送｜新竹以北配送到府；新竹以南、宜花東由黑貓宅急便配送</li>
         <li><b>配送時間：</b>每週一、週二配送；每週五中午截止收單</li>
         <li><b>運費（雙北）：</b>2 箱以上免運，單買 1 箱加收運費 $60</li>
-        <li><b>運費（雙北以外）：</b>低溫宅配 $180／趟，滿 3 箱免運</li>
+        <li><b>運費（雙北以外）：</b>滿 3 箱免運，未滿 3 箱運費 $180</li>
         <li><b>到貨時間：</b>下單後 3–5 個工作天產地直送到府</li>
         <li><b>付款方式：</b>轉帳匯款／貨到付款</li>
         <li><b>保存方式：</b>常溫可放 10 天，冷藏 2 個月</li>
@@ -375,7 +1001,20 @@ footer a{color:#ffd08a}
     <h2 class="sec">🍳 養生雞蛋食譜大全</h2>
     <p class="sub">12 道中西經典雞蛋料理，用貂蟬草本養生雞蛋做出最安心的美味</p>
     <div class="filter-bar" id="filterBar"></div>
-    <div class="rec-grid" id="recGrid"></div>
+    <div class="rec-grid" id="recGrid">
+<div class="rec" id="rec-古早味菜脯蛋" data-cat="台式"><div class="top">🍥</div><div class="body"><h3>古早味菜脯蛋</h3><div class="meta">⏱ 15分鐘｜難度：簡單｜台式</div><div class="tags"><span class="tag">蘿蔔乾</span><span class="tag">蔥</span><span class="tag">#晚餐</span><span class="tag">#便當</span></div><p style="font-size:.9rem;margin-bottom:10px">外酥內嫩、鹹香下飯的台菜經典。</p><details><summary>作法步驟</summary><ol><li>菜脯泡水10分鐘去鹹，擠乾切碎</li><li>乾鍋小火炒香菜脯，盛起放涼</li><li>4顆養生雞蛋打散，加入菜脯與蔥花</li><li>熱鍋多油，倒入蛋液以中大火煎至定型</li><li>翻面煎至兩面金黃即可</li></ol></details><div class="tip">💡 養生蛋小知識：草本養生蛋蛋香濃郁無腥味，煎蛋不必加味精就很香。</div></div></div>
+<div class="rec" id="rec-番茄炒蛋" data-cat="台式"><div class="top">🍅</div><div class="body"><h3>番茄炒蛋</h3><div class="meta">⏱ 10分鐘｜難度：簡單｜台式</div><div class="tags"><span class="tag">番茄</span><span class="tag">蔥</span><span class="tag">#晚餐</span><span class="tag">#便當</span></div><p style="font-size:.9rem;margin-bottom:10px">酸甜開胃的國民家常菜，茄紅素+葉黃素雙重營養。</p><details><summary>作法步驟</summary><ol><li>番茄切塊、3顆蛋加少許鹽打散</li><li>熱油先炒蛋至七分熟盛起</li><li>原鍋炒番茄至出汁，加少許糖與鹽</li><li>倒回炒蛋拌合，撒蔥花起鍋</li></ol></details><div class="tip">💡 養生蛋小知識：蛋黃天然金黃，成品色澤特別漂亮，兒童接受度高。</div></div></div>
+<div class="rec" id="rec-日式茶碗蒸" data-cat="日式"><div class="top">🍮</div><div class="body"><h3>日式茶碗蒸</h3><div class="meta">⏱ 25分鐘｜難度：中等｜日式</div><div class="tags"><span class="tag">高湯</span><span class="tag">香菇</span><span class="tag">蝦仁</span><span class="tag">#晚餐</span><span class="tag">#補養</span></div><p style="font-size:.9rem;margin-bottom:10px">滑嫩如布丁的蒸蛋，好消化易吸收。</p><details><summary>作法步驟</summary><ol><li>2顆蛋輕輕打散，不要打出泡</li><li>加入2.5倍蛋液量的柴魚高湯與少許鹽</li><li>過篩兩次倒入碗中，放入香菇、蝦仁</li><li>蓋上耐熱膜，電鍋外鍋半杯水、鍋蓋留縫蒸12分鐘</li></ol></details><div class="tip">💡 養生蛋小知識：無沙門桿菌檢驗合格的蛋，蒸蛋給幼兒與長輩吃更安心。</div></div></div>
+<div class="rec" id="rec-日式溏心蛋" data-cat="日式"><div class="top">🍜</div><div class="body"><h3>日式溏心蛋</h3><div class="meta">⏱ 20分鐘+醃漬｜難度：中等｜日式</div><div class="tags"><span class="tag">醬油</span><span class="tag">味醂</span><span class="tag">#宵夜</span><span class="tag">#便當</span></div><p style="font-size:.9rem;margin-bottom:10px">蛋黃呈膏狀的拉麵靈魂配角。</p><details><summary>作法步驟</summary><ol><li>雞蛋回至室溫，沸水下鍋煮6分30秒</li><li>立刻冰鎮5分鐘後剝殼</li><li>醬油:味醂:水＝1:1:2煮開放涼</li><li>蛋浸入醬汁冷藏醃4小時以上</li></ol></details><div class="tip">💡 養生蛋小知識：新鮮度是溏心蛋成敗關鍵——產地直送的蛋，蛋白Q彈不易破。</div></div></div>
+<div class="rec" id="rec-三色蛋" data-cat="中式"><div class="top">🟡</div><div class="body"><h3>三色蛋</h3><div class="meta">⏱ 40分鐘｜難度：中等｜中式</div><div class="tags"><span class="tag">皮蛋</span><span class="tag">鹹蛋</span><span class="tag">#宴客</span><span class="tag">#便當</span></div><p style="font-size:.9rem;margin-bottom:10px">宴客必備的漂亮冷盤，三種蛋的完美結合。</p><details><summary>作法步驟</summary><ol><li>皮蛋、鹹蛋各2顆蒸熟切丁</li><li>4顆蛋分出蛋黃、蛋白；蛋白加皮蛋鹹蛋丁拌勻</li><li>倒入鋪保鮮膜的容器蒸15分鐘至半凝固</li><li>淋上蛋黃液再蒸10分鐘，放涼切片</li></ol></details><div class="tip">💡 養生蛋小知識：用養生蛋做基底，蛋白層更Q、切面更晶瑩。</div></div></div>
+<div class="rec" id="rec-九層塔烘蛋" data-cat="台式"><div class="top">🌿</div><div class="body"><h3>九層塔烘蛋</h3><div class="meta">⏱ 15分鐘｜難度：簡單｜台式</div><div class="tags"><span class="tag">九層塔</span><span class="tag">#晚餐</span></div><p style="font-size:.9rem;margin-bottom:10px">塔香撲鼻、蓬鬆厚實的熱炒店人氣料理。</p><details><summary>作法步驟</summary><ol><li>4顆蛋打散加鹽與少許米酒</li><li>九層塔洗淨甩乾拌入蛋液</li><li>熱鍋熱油（油要夠），倒入蛋液</li><li>小火半煎炸至底部金黃，翻面再煎2分鐘</li></ol></details><div class="tip">💡 養生蛋小知識：蛋液蓬發力好，烘蛋厚度輕鬆達2公分。</div></div></div>
+<div class="rec" id="rec-古早味茶葉蛋" data-cat="台式"><div class="top">🍵</div><div class="body"><h3>古早味茶葉蛋</h3><div class="meta">⏱ 1小時+燜泡｜難度：簡單｜台式</div><div class="tags"><span class="tag">茶葉</span><span class="tag">滷包</span><span class="tag">#點心</span><span class="tag">#補養</span></div><p style="font-size:.9rem;margin-bottom:10px">越燜越入味的國民點心。</p><details><summary>作法步驟</summary><ol><li>雞蛋煮熟後輕敲出裂痕</li><li>鍋中加紅茶葉、滷包、醬油、鹽與水</li><li>小火滷40分鐘，關火燜過夜</li><li>隔天再加熱一次風味更佳</li></ol></details><div class="tip">💡 養生蛋小知識：蛋殼厚實完整，滷煮不易破裂，紋路更漂亮。</div></div></div>
+<div class="rec" id="rec-法式歐姆蛋" data-cat="西式"><div class="top">🧈</div><div class="body"><h3>法式歐姆蛋</h3><div class="meta">⏱ 10分鐘｜難度：中等｜西式</div><div class="tags"><span class="tag">奶油</span><span class="tag">起司</span><span class="tag">牛奶</span><span class="tag">#早餐</span></div><p style="font-size:.9rem;margin-bottom:10px">外層光滑、內裡半熟綿滑的法式經典早餐。</p><details><summary>作法步驟</summary><ol><li>3顆蛋加1大匙牛奶打勻</li><li>不沾鍋融化奶油至起泡</li><li>倒入蛋液快速攪拌至半熟</li><li>收邊對折，利用餘溫塑形，可包入起司</li></ol></details><div class="tip">💡 養生蛋小知識：天然金黃的蛋黃不靠人工色素，歐姆蛋顏色如陽光般誘人。</div></div></div>
+<div class="rec" id="rec-班尼迪克蛋" data-cat="西式"><div class="top">🥯</div><div class="body"><h3>班尼迪克蛋</h3><div class="meta">⏱ 30分鐘｜難度：進階｜西式</div><div class="tags"><span class="tag">麵包</span><span class="tag">火腿</span><span class="tag">奶油</span><span class="tag">#早午餐</span><span class="tag">#宴客</span></div><p style="font-size:.9rem;margin-bottom:10px">水波蛋+荷蘭醬的頂級早午餐儀式感。</p><details><summary>作法步驟</summary><ol><li>醋水微滾，旋出漩渦滑入雞蛋煮3分鐘成水波蛋</li><li>蛋黃+融化奶油+檸檬汁隔水打成荷蘭醬</li><li>英式瑪芬烤脆，疊上火腿與水波蛋</li><li>淋上荷蘭醬，撒少許紅椒粉</li></ol></details><div class="tip">💡 養生蛋小知識：水波蛋要成功，蛋一定要新鮮——產地直送就是本錢。</div></div></div>
+<div class="rec" id="rec-西班牙馬鈴薯烘蛋" data-cat="西式"><div class="top">🥔</div><div class="body"><h3>西班牙馬鈴薯烘蛋</h3><div class="meta">⏱ 35分鐘｜難度：中等｜西式</div><div class="tags"><span class="tag">馬鈴薯</span><span class="tag">洋蔥</span><span class="tag">#早午餐</span><span class="tag">#宴客</span><span class="tag">#便當</span></div><p style="font-size:.9rem;margin-bottom:10px">厚實飽足的西班牙國民料理，冷熱皆宜。</p><details><summary>作法步驟</summary><ol><li>馬鈴薯、洋蔥切薄片，小火油煮至軟</li><li>瀝油後拌入5顆打散的蛋液，靜置10分鐘</li><li>小火煎至底部定型，藉盤子翻面</li><li>再煎5分鐘至熟，切塊享用</li></ol></details><div class="tip">💡 養生蛋小知識：一次用5顆蛋的豪華料理，優質蛋白撐起整日活力。</div></div></div>
+<div class="rec" id="rec-雲朵蛋吐司" data-cat="西式"><div class="top">☁️</div><div class="body"><h3>雲朵蛋吐司</h3><div class="meta">⏱ 15分鐘｜難度：簡單｜西式</div><div class="tags"><span class="tag">麵包</span><span class="tag">起司</span><span class="tag">#早餐</span></div><p style="font-size:.9rem;margin-bottom:10px">蛋白打發如雲朵、蛋黃像太陽，小朋友最愛的萌系早餐。</p><details><summary>作法步驟</summary><ol><li>分開蛋白蛋黃，蛋白加少許鹽打發至硬性發泡</li><li>蛋白霜堆在吐司上，中間留一個凹槽</li><li>180°C烤5分鐘後，放入蛋黃再烤3分鐘</li><li>撒起司與黑胡椒即完成</li></ol></details><div class="tip">💡 養生蛋小知識：新鮮蛋白打發快、雲朵更挺，親子共廚超有成就感。</div></div></div>
+<div class="rec" id="rec-麻油薑蛋" data-cat="台式"><div class="top">🫚</div><div class="body"><h3>麻油薑蛋</h3><div class="meta">⏱ 12分鐘｜難度：簡單｜台式</div><div class="tags"><span class="tag">麻油</span><span class="tag">薑</span><span class="tag">#補養</span><span class="tag">#宵夜</span></div><p style="font-size:.9rem;margin-bottom:10px">台灣經典月子料理，麻油香氣溫暖濃郁。</p><details><summary>作法步驟</summary><ol><li>黑麻油小火煸香老薑片至捲曲</li><li>打入2顆蛋煎至邊緣焦香</li><li>嗆入少許米酒（孕婦可煮至酒精揮發）</li><li>可加麵線變成麻油蛋麵線</li></ol></details><div class="tip">💡 養生蛋小知識：雞蛋含優質蛋白質，是月子期間傳統飲食中常見的營養食材。</div></div></div>
+</div>
   </div>
 </section>
 
@@ -394,12 +1033,42 @@ footer a{color:#ffd08a}
   </div>
 </section>
 
+<section id="faq" style="background:#fff;border-top:1px solid #f0e2ce">
+  <div class="container">
+    <h2 class="sec">常見問題</h2>
+    <p class="sub">訂購、配送、保存一次看懂</p>
+    <div class="notice faq">
+      <h3>如何訂購貂蟬草本養生雞蛋？</h3>
+      <p>加入 LINE 官方帳號（ID：@kos5506h）或來電 0939-945-404，告知品項、數量與收件地址即可。</p>
+      <h3>配送範圍有哪些？運費怎麼算？</h3>
+      <p>全台皆可配送。新竹以北由幸福大使配送到府；新竹以南及宜花東由黑貓宅急便配送。雙北 2 箱以上免運，單買 1 箱加收運費 $60；雙北以外滿 3 箱免運，未滿 3 箱運費 $180。</p>
+      <h3>什麼時候截止收單？什麼時候配送？</h3>
+      <p>每週五中午截止收單，每週一、週二配送，下單後約 3–5 個工作天到貨。</p>
+      <h3>有哪些付款方式？</h3>
+      <p>轉帳匯款或貨到付款。</p>
+      <h3>雞蛋可以保存多久？</h3>
+      <p>常溫可放 10 天，冷藏可放 2 個月。</p>
+      <h3>什麼是初生卵？</h3>
+      <p>初生卵是雞隻約 120 天大、體重達 1.2 公斤時產下的第一批蛋，大約每 2 個月才有一批，數量稀少，需要提早預約。</p>
+      <h3>為什麼同一箱雞蛋大小不一樣？</h3>
+      <p>雞蛋以重量計價，每箱 3 台斤、30 顆，所以可能一層稍大、一層稍小，這是正常現象，出貨前都會篩選量秤。</p>
+      <h3>皮蛋要怎麼保存？</h3>
+      <p>買回家後放在常溫陰涼處即可，保存期限約 4 個月，不需要冷藏。要做涼拌菜時，可以先冰鎮半小時再吃。</p>
+      <h3>皮蛋殼上的墨綠色斑點是什麼？</h3>
+      <p>那是蛋殼在烘乾受熱過程中產生的自然變化，不影響品質，可以放心食用。</p>
+      <h3>雞蛋有檢驗報告可以看嗎？</h3>
+      <p>有。最新的 SGS 檢驗報告（編號 AFA25B03713，2025/11/20）可以<a href="sgs-report-AFA25B03713.pdf" target="_blank" rel="noopener">SGS 檢驗報告 AFA25B03713</a>：134 項動物用藥與 129 項農藥殘留均未檢出，沙門氏桿菌陰性。</p>
+    </div>
+  </div>
+</section>
+
 <section id="order" class="order">
   <div class="container">
     <h2 class="sec">立即訂購</h2>
     <p class="sub">輕鬆點擊即可加入與訂購｜❤️送禮自用兩相宜❤️｜🥚歡迎加入長期訂購配送🥚</p>
     <p style="font-size:1.15rem;margin-bottom:6px"><b>#北區經銷－幸福大使 Amy</b></p>
     <p class="phone">📞 0939-945-404</p>
+    <p style="font-size:1.1rem;font-weight:700;color:var(--brown)">LINE ID：@kos5506h</p>
     <div class="btns" style="margin-top:22px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap">
       <a class="btn btn-line" href="https://lin.ee/9X0OfSm" target="_blank" rel="noopener">點擊加入 Line 客服，即可訂購</a>
     </div>
@@ -410,7 +1079,7 @@ footer a{color:#ffd08a}
 <footer>
   <p><b>陳秋池畜牧場｜貂蟬草本養生雞蛋 & 原味滴雞精</b></p>
   <p>彰化二林產地直送｜農委會雞蛋溯源編號 5140057515｜彰化芳苑鄉農會輔導</p>
-  <p>北區經銷－幸福大使 Amy 0939-945-404｜<a href="https://lin.ee/9X0OfSm" target="_blank" rel="noopener">Line 訂購</a></p>
+  <p>北區經銷－幸福大使 Amy 0939-945-404｜LINE ID：@kos5506h｜<a href="https://lin.ee/9X0OfSm" target="_blank" rel="noopener">Line 訂購</a></p>
   <p style="margin-top:10px;opacity:.7">一生用心 ～ 做好『大家ㄟ雞蛋』</p>
 </footer>
 
@@ -539,19 +1208,8 @@ CATS.forEach(c=>{
 });
 
 function drawRecipes(){
-  document.getElementById('recGrid').innerHTML = RECIPES
-    .filter(r=>curCat==='全部'||r.cat===curCat)
-    .map(r=>'<div class="rec" id="rec-'+r.n+'">'+
-      '<div class="top">'+r.e+'</div><div class="body">'+
-      '<h3>'+r.n+'</h3>'+
-      '<div class="meta">⏱ '+r.time+'｜難度：'+r.diff+'｜'+r.cat+'</div>'+
-      '<div class="tags">'+r.ing.map(i=>'<span class="tag">'+i+'</span>').join('')+r.scene.map(s=>'<span class="tag">#'+s+'</span>').join('')+'</div>'+
-      '<p style="font-size:.9rem;margin-bottom:10px">'+r.desc+'</p>'+
-      '<details><summary>作法步驟</summary><ol>'+r.steps.map(s=>'<li>'+s+'</li>').join('')+'</ol></details>'+
-      '<div class="tip">💡 養生蛋小知識：'+r.tip+'</div>'+
-      '</div></div>').join('');
+  document.querySelectorAll('#recGrid .rec').forEach(el=>{el.style.display=(curCat==='全部'||el.dataset.cat===curCat)?'':'none';});
 }
-drawRecipes();
 </script>
 </body>
 </html>
