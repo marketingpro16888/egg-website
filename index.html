@@ -901,6 +901,22 @@ nav{position:sticky;top:0;z-index:99;background:rgba(255,248,238,.95);backdrop-f
 .farm-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:30px}
 .farm-gallery img{width:100%;height:220px;object-fit:cover;border-radius:12px;box-shadow:var(--shadow)}
 @media(max-width:760px){.farm-gallery{grid-template-columns:1fr}}
+/* TICKERS */
+.ticker{display:block;overflow:hidden;white-space:nowrap;background:linear-gradient(90deg,#ff7a00,#ff3d6e,#ff7a00);background-size:200% 100%;color:#fff;font-weight:900;font-size:1.05rem;text-decoration:none;animation:tkbg 6s linear infinite;box-shadow:0 4px 14px rgba(255,61,110,.3)}
+.ticker-track{display:inline-flex;animation:tk 28s linear infinite}
+.ticker-track span{padding:12px 2.2rem}
+.ticker:hover .ticker-track{animation-play-state:paused}
+@keyframes tk{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes tkbg{from{background-position:0 0}to{background-position:200% 0}}
+.reviews{background:#fffaf2;border-top:1px solid #f0e2ce;overflow:hidden}
+.rv-wrap{overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.rv-track{display:flex;gap:20px;width:max-content;animation:tk 90s linear infinite;padding:6px 0 14px}
+.rv-wrap:hover .rv-track,.rv-wrap:active .rv-track{animation-play-state:paused}
+.rv{width:310px;flex:none;background:#fff;border-radius:16px;padding:22px;box-shadow:var(--shadow);border-top:4px solid var(--primary)}
+.rv .stars{color:#ffb400;letter-spacing:2px}
+.rv p{font-size:.92rem;margin:8px 0 12px}
+.rv .who{font-weight:700;color:var(--brown);font-size:.9rem}
+@media(prefers-reduced-motion:reduce){.ticker,.ticker-track,.rv-track{animation:none}.rv-wrap{overflow-x:auto}}
 /* CERTS */
 .certs{background:#fff;border-top:1px solid #f0e2ce;border-bottom:1px solid #f0e2ce}
 .cert-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
@@ -1003,6 +1019,7 @@ footer a{color:#ffd08a}
       <a href="#benefits">雞蛋好處</a>
       <a href="#herbs">草本配方</a>
       <a href="#products">產品</a>
+      <a href="#reviews">顧客見證</a>
       <a href="#ai">AI食譜推薦</a>
       <a href="#recipes">食譜</a>
       <a href="#notice">溫馨提醒</a>
@@ -1024,6 +1041,10 @@ footer a{color:#ffd08a}
     <a class="btn btn-ghost" href="#story">認識陳秋池</a>
   </div>
 </header>
+
+<a class="ticker" href="#ai" aria-label="AI 智能食譜推薦，點我試試">
+  <div class="ticker-track"><span>🤖✨ 全新上線！AI 智能食譜推薦</span><span>🍳 冰箱有什麼？告訴 AI，馬上變出今天的雞蛋料理！</span><span>🎉 早餐、便當、宵夜通通搞定，快來玩玩看！</span><span>🎲 不知道吃什麼？按「給我驚喜」讓 AI 幫你決定！</span><span>👉 點我立刻試試！</span><span aria-hidden="true"></span><span aria-hidden="true">🤖✨ 全新上線！AI 智能食譜推薦</span><span aria-hidden="true">🍳 冰箱有什麼？告訴 AI，馬上變出今天的雞蛋料理！</span><span aria-hidden="true">🎉 早餐、便當、宵夜通通搞定，快來玩玩看！</span><span aria-hidden="true">🎲 不知道吃什麼？按「給我驚喜」讓 AI 幫你決定！</span><span aria-hidden="true">👉 點我立刻試試！</span><span aria-hidden="true"></span></div>
+</a>
 
 <section id="story">
   <div class="container">
@@ -1243,6 +1264,31 @@ footer a{color:#ffd08a}
         <li><b>保存方式：</b>常溫可放 10 天，冷藏 2 個月</li>
         <li><b>企業贈禮／大宗訂購：</b>另有優惠，Line 客服專案專人服務</li>
       </ul>
+    </div>
+  </div>
+</section>
+
+<section id="reviews" class="reviews">
+  <div class="container">
+    <h2 class="sec">💬 顧客真心話</h2>
+    <p class="sub">吃過就回不去！聽聽老朋友們怎麼說（滑鼠移上去可暫停）</p>
+  </div>
+  <div class="rv-wrap">
+    <div class="rv-track">
+      <div class="rv"><div class="stars">★★★★★</div><p>「我吃幸福大使黃小姐賣的雞蛋已經 11 年了，她的服務非常好。我分享給公司同事，現在幾乎全辦公室都是訂戶！品質好又非常好吃，週邊產品也都很棒，我也常買來送客戶，回應都很讚，大大推薦！」</p><div class="who">— 台北金融業 周先生</div></div>
+      <div class="rv"><div class="stars">★★★★★</div><p>「以前我也賣過其他雞蛋，黃小姐推薦陳秋池的雞蛋到我店裡後，回頭客變多了，也帶動我的水果生意。賣了很多年，品質一直維持得非常好！」</p><div class="who">— 台北水果店 李老闆</div></div>
+      <div class="rv"><div class="stars">★★★★★</div><p>「送到府真的非常貼心！我怕胖，蛋黃只吃一半，另一半都給我家的貓，牠超愛。有一次我從外面帶回蛋黃，這位貓星人竟然不吃！真神奇！」</p><div class="who">— 新北家管 陳小姐</div></div>
+      <div class="rv"><div class="stars">★★★★★</div><p>「本來家裡都買超市雞蛋，朋友介紹吃到貂蟬雞蛋，一吃就回不去了！連小孩嘴都變刁，吃得出冰箱的蛋是不是特別訂的。以前小孩嫌蛋有味道不愛吃，現在貂蟬雞蛋是我家早餐的主角。」</p><div class="who">— 新北電子業 朱先生</div></div>
+      <div class="rv"><div class="stars">★★★★★</div><p>「我有運動習慣，特別重視蛋白質攝取，有了貂蟬雞蛋，飲食規劃省心不少。」</p><div class="who">— 台北服務業高管 吳先生</div></div>
+      <div class="rv"><div class="stars">★★★★★</div><p>「自從老婆買了貂蟬雞蛋和滴雞精回家，孫女都會跑來跟阿嬤討著吃。小傢伙很識貨呢！」</p><div class="who">— 中壢自營商 劉先生</div></div>
+      <div class="rv"><div class="stars">★★★★★</div><p>「服務保戶多年，黃小姐推薦的雞蛋和滴雞精成了我關懷客戶的最佳伴手禮。精緻又不貴，蛋箱質感高級，客戶都很喜歡，不用擔心禮盒不合適，重點是送得安心！」</p><div class="who">— 台北大直保險業高管 高小姐</div></div>
+      <div class="rv" aria-hidden="true"><div class="stars">★★★★★</div><p>「我吃幸福大使黃小姐賣的雞蛋已經 11 年了，她的服務非常好。我分享給公司同事，現在幾乎全辦公室都是訂戶！品質好又非常好吃，週邊產品也都很棒，我也常買來送客戶，回應都很讚，大大推薦！」</p><div class="who">— 台北金融業 周先生</div></div>
+      <div class="rv" aria-hidden="true"><div class="stars">★★★★★</div><p>「以前我也賣過其他雞蛋，黃小姐推薦陳秋池的雞蛋到我店裡後，回頭客變多了，也帶動我的水果生意。賣了很多年，品質一直維持得非常好！」</p><div class="who">— 台北水果店 李老闆</div></div>
+      <div class="rv" aria-hidden="true"><div class="stars">★★★★★</div><p>「送到府真的非常貼心！我怕胖，蛋黃只吃一半，另一半都給我家的貓，牠超愛。有一次我從外面帶回蛋黃，這位貓星人竟然不吃！真神奇！」</p><div class="who">— 新北家管 陳小姐</div></div>
+      <div class="rv" aria-hidden="true"><div class="stars">★★★★★</div><p>「本來家裡都買超市雞蛋，朋友介紹吃到貂蟬雞蛋，一吃就回不去了！連小孩嘴都變刁，吃得出冰箱的蛋是不是特別訂的。以前小孩嫌蛋有味道不愛吃，現在貂蟬雞蛋是我家早餐的主角。」</p><div class="who">— 新北電子業 朱先生</div></div>
+      <div class="rv" aria-hidden="true"><div class="stars">★★★★★</div><p>「我有運動習慣，特別重視蛋白質攝取，有了貂蟬雞蛋，飲食規劃省心不少。」</p><div class="who">— 台北服務業高管 吳先生</div></div>
+      <div class="rv" aria-hidden="true"><div class="stars">★★★★★</div><p>「自從老婆買了貂蟬雞蛋和滴雞精回家，孫女都會跑來跟阿嬤討著吃。小傢伙很識貨呢！」</p><div class="who">— 中壢自營商 劉先生</div></div>
+      <div class="rv" aria-hidden="true"><div class="stars">★★★★★</div><p>「服務保戶多年，黃小姐推薦的雞蛋和滴雞精成了我關懷客戶的最佳伴手禮。精緻又不貴，蛋箱質感高級，客戶都很喜歡，不用擔心禮盒不合適，重點是送得安心！」</p><div class="who">— 台北大直保險業高管 高小姐</div></div>
     </div>
   </div>
 </section>
