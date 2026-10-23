@@ -1001,6 +1001,10 @@ nav{position:sticky;top:0;z-index:99;background:rgba(255,248,238,.95);backdrop-f
 /* ORDER */
 .order{background:linear-gradient(160deg,#ffe2b0,#ffd08a);text-align:center}
 .order .phone{font-size:1.6rem;font-weight:900;color:var(--brown)}
+.qr-box{display:inline-flex;align-items:center;gap:22px;background:#fff;border-radius:18px;padding:20px 26px;margin-top:26px;box-shadow:var(--shadow);text-align:left}
+.qr-box img{width:170px;height:170px;border-radius:10px}
+.qr-box .qr-t{font-weight:900;color:var(--green);font-size:1.15rem}
+@media(max-width:760px){.qr-box{flex-direction:column;text-align:center;gap:10px}.qr-box img{width:140px;height:140px}}
 footer{background:var(--brown);color:#e8d5ba;text-align:center;padding:30px 20px;font-size:.88rem}
 footer a{color:#ffd08a}
 @media(max-width:760px){
@@ -1400,6 +1404,14 @@ footer a{color:#ffd08a}
     <p style="font-size:1.1rem;font-weight:700;color:var(--brown)">LINE ID：@kos5506h</p>
     <div class="btns" style="margin-top:22px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap">
       <a class="btn btn-line" href="https://lin.ee/9X0OfSm" target="_blank" rel="noopener">點擊加入 Line 客服，即可訂購</a>
+    </div>
+    <div class="qr-box">
+      <img src="line-qr.png" width="540" height="540" alt="幸福大使 LINE 官方帳號 QR Code（ID：@kos5506h）" loading="lazy">
+      <div>
+        <p class="qr-t">📱 用手機掃描加入 LINE</p>
+        <p>打開 LINE →「加入好友」→「行動條碼」掃描左圖，<br>即可詢問與訂購。</p>
+        <p style="margin-top:6px">或搜尋 LINE ID：<b>@kos5506h</b></p>
+      </div>
     </div>
     <p style="margin-top:22px;color:var(--brown)">企業贈禮／大宗訂購另有優惠，請來電或加入 Line@：<a href="https://lin.ee/9X0OfSm" target="_blank" rel="noopener">https://lin.ee/9X0OfSm</a><br>將以專案專人為您服務！</p>
   </div>
